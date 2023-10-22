@@ -1,0 +1,6 @@
+framework module AlertModule {
+  umbrella header "AlertModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

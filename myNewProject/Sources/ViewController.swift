@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AlertModule
 
 class ViewController: UIViewController {
     
@@ -85,6 +86,7 @@ extension ViewController: ButtonTableViewCellDelegate {
     }
     
     func menssageAction() {
+        MainView.showMessage()
         let alert = UIAlertController(title: "Recado", message: "Bem vindo!! ", preferredStyle: .alert)
         let closedAction = UIAlertAction(title: "Fechar", style: .destructive)
         alert.addAction(closedAction)

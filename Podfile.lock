@@ -1,0 +1,25 @@
+PODS:
+  - AlertModule (1.0.0):
+    - AlertModule/Release (= 1.0.0)
+  - AlertModule/Release (1.0.0)
+
+DEPENDENCIES:
+  - AlertModule (from `https://github.com/lizmagbz/AlertModule.git`)
+
+EXTERNAL SOURCES:
+  AlertModule:
+    :git: https://github.com/lizmagbz/AlertModule.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  AlertModule:
+    :commit: 928df391e1b392d6d62bf8f0d5b08a4349077316
+    :git: https://github.com/lizmagbz/AlertModule.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  AlertModule: 35f0e6afd4023321d165f65940b97be3f763c2d2
+
+PODFILE CHECKSUM: ba072db7acd242272ed911ea8a8c74cb15f6e7f4
+
+COCOAPODS: 1.13.0

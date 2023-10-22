@@ -1,0 +1,31 @@
+{
+  "name": "AlertModule",
+  "version": "1.0.0",
+  "summary": "A short description of AlertModule.",
+  "description": "Feature para a criação de Gráficos",
+  "homepage": "https://github.com/lizmagbz/AlertModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Liz Mabel": "mabelgomes918@gmial.com"
+  },
+  "source": {
+    "git": "https://github.com/lizmagbz/AlertModule.git",
+    "tag": "1.0.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "AlertModule/Classes/**/*",
+  "default_subspecs": "Release",
+  "subspecs": [
+    {
+      "name": "Release",
+      "vendored_frameworks": "Framework/AlertModule.framework"
+    }
+  ],
+  "swift_version": "5.0"
+}
